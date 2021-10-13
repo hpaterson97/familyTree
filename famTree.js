@@ -1,8 +1,10 @@
 
 class ftConstruct {
-    constructor (name, parent1, parent2) {
+    constructor (name, age, parent1, parent2) {
         this.name = name;
         this.parents = [parent1, parent2];
+        this.age = age;
+
 
     }
     childOf(){

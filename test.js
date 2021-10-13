@@ -9,7 +9,7 @@ const firstGen = [ //first generation array of objects
     new ftConstruct("Queen Elizabeth")
 ];
 const secGen = [ //second generation array of objects
-    new ftConstruct("Queen Elizabeth II", firstGen[0].name, firstGen[1].name),
+    new ftConstruct("Queen Elizabeth II", 95, firstGen[0].name, firstGen[1].name),
     new ftConstruct("Princess Margaret", firstGen[0].name, firstGen[1].name),
     new ftConstruct("Prince Philip")
 ];
@@ -36,5 +36,9 @@ describe('second generation', () => { //testing second generation array of objec
     test('is this object an instance of the ftConstruct class that was imported', () => {
         expect(secGen[1]).toBeInstanceOf(ftConstruct);
     }); 
+    //Test Driven Development: testing for an attribute that doesn't exist and making the simplest solution
+    test('does the age attribute have type: number', () => {
+        expect(typeof secGen[0].age).toBe('number');
+    });
 
 });
