@@ -32,4 +32,6 @@ const thirdGen = [//third generation array of objects
     new ftConstruct("Prince Andrew", secGen[0].name, secGen[2].name),
     new ftConstruct("Prince Edward", secGen[0].name, secGen[2].name),
 ];
-console.log(thirdGen[2].childOf());
+//console.log(thirdGen[2].childOf());
+//module.exports = {firstGen, secGen, thirdGen};
+module.exports = {ftConstruct};

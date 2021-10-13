@@ -1,0 +1,23 @@
+{
+  "name": "familytree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "famTree.js",
+  "scripts": {
+  "test": "jest",
+  "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hpaterson97/familyTree.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hpaterson97/familyTree/issues"
+  },
+  "homepage": "https://github.com/hpaterson97/familyTree#readme",
+  "dependencies": {
+    "jest": "^27.2.5"
+  }
+}
